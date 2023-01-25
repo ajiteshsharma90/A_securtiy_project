@@ -1,0 +1,11 @@
+trigger:
+- master
+
+pool: 
+  vmImage: ubuntu-latest
+
+steps:
+- script: | 
+    echo "This is the Demo YAML file for DevSecOps Pipeline"
+  displayName: "Print console test for Demo"
+    
